@@ -1,0 +1,7 @@
+---
+# Swap
+- include_tasks: swap.yaml
+
+# Hostname
+- include_tasks: hostname.yaml
+  when: common_disable_swap

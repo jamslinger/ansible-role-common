@@ -1,0 +1,10 @@
+---
+- name: Changing hostname.
+  hostname:
+    name: "{{ common_hostname }}"
+    use: systemd
+
+- name: Changing /etc/hosts.
+  template:
+    src: hosts.j2
+    dest: /etc/hosts

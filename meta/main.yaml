@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  role_name: common
+  namespace: probosmo
+  author: probosmo
+  description: Common tasks like changing hostnames and disabling swap.
+  license: MIT
+  min_ansible_version: 2.9
+  platforms:
+    - name: Ubuntu
+      versions:
+        - focal
+  galaxy_tags:
+    - common
+    - swap
+    - hostname
+    - hosts
+dependencies: []
