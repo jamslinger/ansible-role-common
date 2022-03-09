@@ -26,7 +26,7 @@ Example Playbook
   vars:
     - common_hostname: myhost
   roles:
-    - probosmo.common
+    - jamslinger.common
 ```
 
 License
