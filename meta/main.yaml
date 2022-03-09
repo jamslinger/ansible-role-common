@@ -1,8 +1,8 @@
 ---
 galaxy_info:
   role_name: common
-  namespace: probosmo
-  author: probosmo
+  namespace: jamslinger
+  author: jamslinger
   description: Common tasks like changing hostnames and disabling swap.
   license: MIT
   min_ansible_version: 2.9
