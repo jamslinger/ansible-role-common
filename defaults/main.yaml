@@ -1,2 +1,6 @@
 ---
 common_disable_swap: true
+common_update_hosts_file: false
+common_host_entries: []
+#  - ip: 10.0.0.1
+#    host: my-host

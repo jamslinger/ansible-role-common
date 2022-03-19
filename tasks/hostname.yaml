@@ -8,3 +8,4 @@
   template:
     src: hosts.j2
     dest: /etc/hosts
+  when: common_update_hosts_file
